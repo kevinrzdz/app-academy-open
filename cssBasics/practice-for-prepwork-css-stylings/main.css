@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+body {
+    background-color: #333;
+}
+h1 {
+    font-size: 36px;
+    font-family: 'Roboto Serif', sans-serif;
+    padding: 10px;
+    margin: 20px 0;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #FFF;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    margin: 15px 0;
+    font-weight: 700;
+    color: #555;
+    background-color: #b9b6b6;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 5px 0;
+    margin: 10px 0;
+    color: #c0bfbf;
+}
+
+.logo {
+    background-size: contain;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.story-box {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
