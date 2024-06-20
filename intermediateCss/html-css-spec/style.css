@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.box {
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+main {
+  margin: auto;
+  max-width: 80%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  gap: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: "- ";
+  color: blue;
+}
+
+.content-section {
+  margin: 20px 0;
+}
+
+.social-icons {
+  display: flex;
+  padding: 0;
+  margin: 0 20px;
+  gap: 10px;
+}
+
+.social-icons a {
+  border: 3px solid black;
+  height: fit-content;
+  padding: 5px;
+}
+
+.article-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.article-info img {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  border: 1px solid black;
+}
+
+.more-info {
+  display: flex;
+  gap: 20px;
+}
+
+.more-info h3 {
+  margin-top: 0;
+  margin-left: 20px;  
+}
+
+.more-info ul {
+  margin-top: 0
+}
+
+.more-info div {
+  flex: 1;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  height: 50px;
+  border: 3px solid black;
+}
+
+.nav-links {
+  display: flex;
+  flex: 2;
+  justify-content: space-evenly;
+}
